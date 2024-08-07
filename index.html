@@ -152,7 +152,6 @@
 
         .headline .button a:hover {
             background-color: #f0b64a ;
-            box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
             color: black;
             transition: all 0.1s ;    
         }
@@ -165,7 +164,7 @@
         /* MENUS-SECT */
         .additional-border-menu {
             width: 100%;
-            height: 50px;
+            height: 55px;
             background-color: #f0b64a;
         }
 
@@ -180,7 +179,7 @@
 
         .menus {
             width: 100%;
-            border: solid 1px black;
+            border: none;
             /* display: flex; */
             justify-content: center;
             align-items: center;
@@ -192,6 +191,7 @@
             /* text-transform: uppercase; */
             font-weight: 600;
             color: rgb(80, 0, 0) ;
+            border-top: dashed 2px rgb(80, 0, 0);
         }
 
         .menus .bs-items {
@@ -203,11 +203,12 @@
         .menus .bs-items .bs-item-1 {
             width: 300px;
             height: 400px;
-            border: solid 1px black;
+            border: none;
             margin: 50px auto;
             border-radius: 10px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
         }
 
         .menus .bs-items .bs-item-1 img {
@@ -231,30 +232,32 @@
             background-color: #F2DFBC;
             font-family: "Poppins", sans-serif;
             padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
         }
-
+        
         .description-bs h3 {
             font-size: 17px;
             font-weight: 600;
         }
-
+        
         .description-bs h4 {
             font-size: 17px;
             font-weight: 600;
             margin-bottom: 100px;
             
         }
-
+        
         .menus .bs-items .bs-item-2 {
             width: 300px;
             height: 400px;
-            border: solid 1px black;
+            border: none;
             margin: 50px auto;
             border-radius: 10px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
         }
-
+        
         .menus .bs-items .bs-item-2 img {
             position: absolute;
             top: 0;
@@ -263,7 +266,7 @@
             height: 90%;
             object-fit: cover;
         }
-
+        
         .description-bs-2 {
             width: 300px;
             height: 62.5px;
@@ -276,18 +279,20 @@
             background-color: #F2DFBC;
             font-family: "Poppins", sans-serif;
             padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
         }
-
+        
         .menus .bs-items .bs-item-3 {
             width: 300px;
             height: 400px;
-            border: solid 1px black;
+            border: none;
             margin: 50px auto;
             border-radius: 10px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
         }
-
+        
         .menus .bs-items .bs-item-3 img {
             position: absolute;
             top: 0;
@@ -296,7 +301,7 @@
             height: 90%;
             object-fit: cover;
         }
-
+        
         .description-bs-3 {
             width: 300px;
             height: 62.5px;
@@ -309,36 +314,139 @@
             background-color: #F2DFBC;
             font-family: "Poppins", sans-serif;
             padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
         }
-
+        
         .menus .menu-items {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
-
+        
+        .description-menu h3 {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        
+        .description-menu h4 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 100px;
+            
+        }
+        
         .menus .menu-items .menu-item-1 {
-            width: 400px;
-            height: 350px;
-            border: solid 1px rgb(0, 0, 0);
+            width: 300px;
+            height: 400px;
+            border: none;
             margin: 50px auto;
             border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
         }
-
+        
+        .menus .menu-items .menu-item-1 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% ;
+            height: 90%;
+            object-fit: cover;
+        }
+        
+        .description-menu-1 {
+            width: 300px;
+            height: 62.5px;
+            position: absolute;
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
+            background-color: #F2DFBC;
+            font-family: "Poppins", sans-serif;
+            padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
+        }
+        
+        
         .menus .menu-items .menu-item-2 {
-            width: 400px;
-            height: 350px;
-            border: solid 1px rgb(0, 0, 0);
+            width: 300px;
+            height: 400px;
+            border: none;
             margin: 50px auto;
             border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
+        }
+        
+        .menus .menu-items .menu-item-2 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% ;
+            height: 90%;
+            object-fit: cover;
+        }
+        
+        .description-menu-2 {
+            width: 300px;
+            height: 62.5px;
+            position: absolute;
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
+            background-color: #F2DFBC;
+            font-family: "Poppins", sans-serif;
+            padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
+        }
+        
+        .menus .menu-items .menu-item-3 {
+            width: 300px;
+            height: 400px;
+            border: none;
+            margin: 50px auto;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px #e09200;
+        }
+        
+        .menus .menu-items .menu-item-3 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% ;
+            height: 90%;
+            object-fit: cover;
+        }
+        
+        .description-menu-3 {
+            width: 300px;
+            height: 62.5px;
+            position: absolute;
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
+            background-color: #F2DFBC;
+            font-family: "Poppins", sans-serif;
+            padding: 5px 0px;
+            box-shadow: 0px 2px 4px #000000;
         }
 
-        .menus .menu-items .menu-item-3 {
-            width: 400px;
-            height: 350px;
-            border: solid 1px rgb(0, 0, 0);
-            margin: 50px auto;
-            border-radius: 10px;
+        /* ABOUT US */
+        .additional-border-about {
+            width: 100%;
+            height: 50px;
+            background-color: #f0b64a;
+            margin-top: 50px;
         }
 
     </style>
@@ -397,61 +505,114 @@
             </div>
 
         </div>
+    <!-- --- -->
     
     <!-- MENUS -->
         <div class="additional-border-menu"></div>
 
         <div class="menus-container">        
             <div class="menus">
-                <h1>Best Seller</h1>
 
+                <!-- BEST SELLER -->
+                <h1>Best Seller</h1>
                 <div class="bs-items">
 
                     <div class="bs-item-1">
-                        <div class="img-bs-item-1">
-                            <img src="images/oregano.jpg" alt="">
-                        </div>
-
-                        <div class="description-bs-1">
-                            <h3>Iced Espresso</h3>
-                            <h4><i>$15</i></h4>
-                        </div>    
+                        <a href="">
+                            <div class="img-bs-item-1">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-bs-1">
+                                <h3>Iced Espresso</h3>
+                                <h4><i>$15</i></h4>
+                            </div>    
+                        </a>
                     </div>
 
                     <div class="bs-item-2">
-                        <div class="img-bs-item-2">
-                            <img src="images/oregano.jpg" alt="">
-                        </div>
-
-                        <div class="description-bs-2">
-                            <h3>Iced Capucino</h3>
-                            <h4><i>$10</i></h4>
-                        </div>
+                        <a href="">
+                            <div class="img-bs-item-2">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-bs-2">
+                                <h3>Iced Capucino</h3>
+                                <h4><i>$10</i></h4>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="bs-item-3">
-                        <div class="img-bs-items-3">
-                            <img src="images/oregano.jpg" alt="">
-                        </div>
-
-                        <div class="description-bs-3">
-                            <h3>Luwak White</h3>
-                            <h4><i>$7</i></h4>
-                        </div>
+                        <a href="">
+                            <div class="img-bs-items-3">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-bs-3">
+                                <h3>Luwak White</h3>
+                                <h4><i>$7</i></h4>
+                            </div>
+                        </a>
                     </div>
-                    
+
                 </div>
 
+                <!-- MENU -->
                 <h1>Menu</h1>
                 <div class="menu-items">
-                    <div class="menu-item-1">item1</div>
-                    <div class="menu-item-2">item2</div>
-                    <div class="menu-item-3">item3</div>
-                </div>
-            </div>
 
+                    <div class="menu-item-1">
+                        <a href="">
+                            <div class="img-menu-items-1">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-menu-1">
+                                <h3>Arabika Bronze</h3>
+                                <h4><i>$20</i></h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu-item-2">
+                        <a href="#">
+                            <div class="img-menu-items-2">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-menu-2">
+                                <h3>Ship On Fire</h3>
+                                <h4><i>$2</i></h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="menu-item-3">
+                        <a href="#">
+                            <div class="img-menu-items-3">
+                                <img src="images/oregano.jpg" alt="">
+                            </div>
+    
+                            <div class="description-menu-3">
+                                <h3>Milk Coffee</h3>
+                                <h4><i>$7</i></h4>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        
+    <!-- --- -->
+
+    <div class="additional-border-about"></div>
+
+    <!-- ABOUT US -->
+    
+
+
     </main>
 </body>
 </html>
