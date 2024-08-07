@@ -98,6 +98,9 @@
         /* MAIN */
 
         /* FEATURED-SECT */
+        main {
+            background-color: #F2E8DF;
+        }
         .main-container {
             background-image: url(images/kopi01.jpg);
             background-size: cover ;
@@ -176,12 +179,32 @@
             align-items: center;
             text-align: center;
         }
+
+        .menus h1 {
+            font-family: "Poppins", sans-serif;
+            /* text-transform: uppercase; */
+            font-weight: 600;
+            color: rgb(50, 0, 0) ;
+        }
+
         .menus .bs-items {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
+
         .menus .bs-items div {
+            width: 400px;
+            height: 350px;
+            border: solid 1px black;
+            margin: 50px auto;
+        }
+        .menus .menu-items {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .menus .menu-items div {
             width: 400px;
             height: 350px;
             border: solid 1px black;
@@ -252,6 +275,13 @@
             <div class="menus">
                 <h1>Best Seller</h1>
                 <div class="bs-items">
+                    <div class="bs-item-1">item1</div>
+                    <div class="bs-item-2">item2</div>
+                    <div class="bs-item-3">item3</div>
+                </div>
+
+                <h1>Menu</h1>
+                <div class="menu-items">
                     <div class="bs-item-1">item1</div>
                     <div class="bs-item-2">item2</div>
                     <div class="bs-item-3">item3</div>
