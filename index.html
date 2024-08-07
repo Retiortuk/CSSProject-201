@@ -219,15 +219,15 @@
             object-fit: cover;
         }
 
-        .description-bs {
+        .description-bs-1 {
             width: 300px;
             height: 62.5px;
             position: absolute;
-            bottom: 0px; /* Adjust position if needed */
-            left: 0px; /* Adjust position if needed */
-            color: rgb(80, 0, 0); /* Ensure text is visible */
-            z-index: 1; /* Make sure it's on top of other elements */
-            text-align: center; /* Center align text if needed */
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
             background-color: #F2DFBC;
             font-family: "Poppins", sans-serif;
             padding: 5px 0px;
@@ -237,27 +237,78 @@
             font-size: 17px;
             font-weight: 600;
         }
-        
+
         .description-bs h4 {
             font-size: 17px;
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 100px;
+            
         }
 
         .menus .bs-items .bs-item-2 {
-            width: 400px;
-            height: 350px;
+            width: 300px;
+            height: 400px;
             border: solid 1px black;
             margin: 50px auto;
             border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .menus .bs-items .bs-item-2 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% ;
+            height: 90%;
+            object-fit: cover;
+        }
+
+        .description-bs-2 {
+            width: 300px;
+            height: 62.5px;
+            position: absolute;
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
+            background-color: #F2DFBC;
+            font-family: "Poppins", sans-serif;
+            padding: 5px 0px;
         }
 
         .menus .bs-items .bs-item-3 {
-            width: 400px;
-            height: 350px;
+            width: 300px;
+            height: 400px;
             border: solid 1px black;
             margin: 50px auto;
             border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .menus .bs-items .bs-item-3 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% ;
+            height: 90%;
+            object-fit: cover;
+        }
+
+        .description-bs-3 {
+            width: 300px;
+            height: 62.5px;
+            position: absolute;
+            bottom: 0px; 
+            left: 0px; 
+            color: rgb(80, 0, 0);
+            z-index: 1; 
+            text-align: center; 
+            background-color: #F2DFBC;
+            font-family: "Poppins", sans-serif;
+            padding: 5px 0px;
         }
 
         .menus .menu-items {
@@ -350,10 +401,8 @@
     <!-- MENUS -->
         <div class="additional-border-menu"></div>
 
-        <div class="menus-container">
-            
+        <div class="menus-container">        
             <div class="menus">
-
                 <h1>Best Seller</h1>
 
                 <div class="bs-items">
@@ -362,14 +411,35 @@
                         <div class="img-bs-item-1">
                             <img src="images/oregano.jpg" alt="">
                         </div>
-                        <div class="description-bs">
-                            <h3>Oregano Iced</h3>
-                            <h4>$15</h4>
+
+                        <div class="description-bs-1">
+                            <h3>Iced Espresso</h3>
+                            <h4><i>$15</i></h4>
+                        </div>    
+                    </div>
+
+                    <div class="bs-item-2">
+                        <div class="img-bs-item-2">
+                            <img src="images/oregano.jpg" alt="">
+                        </div>
+
+                        <div class="description-bs-2">
+                            <h3>Iced Capucino</h3>
+                            <h4><i>$10</i></h4>
                         </div>
                     </div>
 
-                    <div class="bs-item-2">item2</div>
-                    <div class="bs-item-3">item3</div>
+                    <div class="bs-item-3">
+                        <div class="img-bs-items-3">
+                            <img src="images/oregano.jpg" alt="">
+                        </div>
+
+                        <div class="description-bs-3">
+                            <h3>Luwak White</h3>
+                            <h4><i>$7</i></h4>
+                        </div>
+                    </div>
+                    
                 </div>
 
                 <h1>Menu</h1>
