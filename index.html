@@ -95,12 +95,13 @@
             margin-right: 15px ;
         }
 
+        
         /* MAIN */
-
         /* FEATURED-SECT */
         main {
             background-color: #F2E8DF;
         }
+
         .main-container {
             background-image: url(images/kopi01.jpg);
             background-size: cover ;
@@ -109,6 +110,7 @@
             width: 100%;
             height: 95vh;
         }
+
         .background-opacity {
             width: 100%;
             height: 95vh;
@@ -127,6 +129,7 @@
             font-size: 25px;
             max-width: 50%;
         }
+
         .headline p {
             font-family: "Poppins", sans-serif;
             font-size: 15px;
@@ -134,6 +137,7 @@
             max-width: 55%;
             margin-top: 20px;
         }
+
         .headline .button a {
             text-decoration: none;
             color: rgb(80, 0, 0);
@@ -145,15 +149,18 @@
             padding: 8px 30px;
             display: inline-block;
         }
+
         .headline .button a:hover {
             background-color: #f0b64a ;
             box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
             color: black;
             transition: all 0.1s ;    
         }
+
         .headline .button {
             margin-top: 20px;
         }
+
 
         /* MENUS-SECT */
         .additional-border-menu {
@@ -193,22 +200,58 @@
             flex-wrap: wrap;
         }
 
-        .menus .bs-items div {
+        .menus .bs-items .bs-item-1 {
             width: 400px;
             height: 350px;
             border: solid 1px black;
             margin: 50px auto;
+            border-radius: 10px;
         }
+
+        .menus .bs-items .bs-item-2 {
+            width: 400px;
+            height: 350px;
+            border: solid 1px black;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        .menus .bs-items .bs-item-3 {
+            width: 400px;
+            height: 350px;
+            border: solid 1px black;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
         .menus .menu-items {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
         }
-        .menus .menu-items div {
+
+        .menus .menu-items .menu-item-1 {
             width: 400px;
             height: 350px;
-            border: solid 1px black;
+            border: solid 1px rgb(0, 0, 0);
             margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        .menus .menu-items .menu-item-2 {
+            width: 400px;
+            height: 350px;
+            border: solid 1px rgb(0, 0, 0);
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+
+        .menus .menu-items .menu-item-3 {
+            width: 400px;
+            height: 350px;
+            border: solid 1px rgb(0, 0, 0);
+            margin: 50px auto;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -275,16 +318,18 @@
             <div class="menus">
                 <h1>Best Seller</h1>
                 <div class="bs-items">
-                    <div class="bs-item-1">item1</div>
+                    <div class="bs-item-1">
+                        <div class="img-bs-item-1"></div>
+                    </div>
                     <div class="bs-item-2">item2</div>
                     <div class="bs-item-3">item3</div>
                 </div>
 
                 <h1>Menu</h1>
                 <div class="menu-items">
-                    <div class="bs-item-1">item1</div>
-                    <div class="bs-item-2">item2</div>
-                    <div class="bs-item-3">item3</div>
+                    <div class="menu-item-1">item1</div>
+                    <div class="menu-item-2">item2</div>
+                    <div class="menu-item-3">item3</div>
                 </div>
             </div>
 
